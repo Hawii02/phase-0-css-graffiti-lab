@@ -1,1 +1,24 @@
 /* write your override styles here */
+.tag-1{
+    display: none;
+    z-index: 5;
+}
+tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7{
+position: absolute;
+  top:auto;
+  left:auto;
+  width: 400px;
+  height: 500px;
+}
+#wall #tag-2 {
+    z-index: 6;
+    display:flex;
+}
+div#wall div.parent div:last-child div#tag-6 {
+    z-index: 4;
+    display:flexbox;
+  }
+  body div#wall div.parent div > #tag-7.slick {
+    z-index: 3;
+    display: none;
+  }
